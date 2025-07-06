@@ -39,4 +39,8 @@ body{
   padding: 8px;
   border: 1px solid gray;
   border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
