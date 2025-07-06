@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic element Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="creator">
+      <select id="tagSelect">
+        <option value="p">Paragraph</option>
+        <option value="h1">Heading</option>
+        <option value="button">Button</option>
+        <option value="img">Image</option>
+      </select>
+      <input
+        type="text"
+        id="contentInput"
+        placeholder="Enter content or image URL"
+      />
+      <button id="createBtn">Create Element</button>
+    </div>
 
-
-
-
+    <div id="outputArea"></div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 25px;
+    flex-direction: column;
+}
+#creator{
+    width: 100%;
+    height: 45px;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#tagSelect{
+    padding: 5px 10px;
+    font-size: 18px;
+}
+#contentInput{
+    width: 350px;
+    padding: 0 10px;
+        font-size: 15px;
+}
+#createBtn{
+    padding: 8px 15px;
+    font-size: 16px;
+}
+
+#outputArea > * {
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
